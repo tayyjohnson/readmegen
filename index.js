@@ -5,9 +5,9 @@ const fs = require("fs");
 // TODO: Create an array of questions for user input
 const promptMain = () => {
   console.log(`
-    ===================
-    Welcome to READMEZY
-    ===================
+    ===========================
+    Welcome to ReadMe Generator
+    ===========================
     `);
   return inquirer.prompt([
     {
@@ -27,7 +27,7 @@ const promptMain = () => {
       type: "input",
       name: "description",
       message:
-        "Provide a description of the project. (Required) \n Consider detailing your motivation, what problem it solves, what tools you used, and what you learned. \n",
+        "Provide a description of the project. (Required) ",
       validate: (descriptionInput) => {
         if (descriptionInput) {
           return true;

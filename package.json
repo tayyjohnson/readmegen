@@ -1,0 +1,22 @@
+{
+    "name": "readmegen",
+    "version": "0.0.1",
+    "description": "An easy-to-use README generator created in the Node environment!",
+    "main": "index.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/eclevela-1234/READMEZY.git"
+    },
+    "author": "Taylor Johnson",
+    "license": "ISC",
+    "bugs": {
+      "url": "https://github.com/tayyjohnson/readmegen.git"
+    },
+    "homepage": "https://github.com/eclevela-1234/READMEZY#readme",
+    "dependencies": {
+      "inquirer": "^8.2.4"
+    }
+  }
